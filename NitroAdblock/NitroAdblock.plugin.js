@@ -29,7 +29,14 @@ module.exports = class NitroAdblock {
   }
 
   load () {
-
+    // Not required, but if the user has ZLibrary installed then support auto update.
+    if (window.ZLibrary) {
+      window.ZLibrary.PluginUpdater.checkForUpdate(
+        this.getName(),
+        this.getVersion(),
+        'https://raw.githubusercontent.com/ochen1/BetterDiscordPlugins/master/NitroAdblock/NitroAdblock.plugin.js'
+      )
+    }
   }
 
   isAd (channel) {
