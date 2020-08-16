@@ -1,6 +1,6 @@
 /**
  * @name NitroAdblock
- * @version 1.0.0
+ * @version 1.1.0
  * @description Removes the Discord ad for Nitro.
  *
  * @website https://github.com/ochen1/BetterDiscordPlugins
@@ -21,7 +21,7 @@ module.exports = class NitroAdblock {
   }
 
   getVersion () {
-    return '1.0.0'
+    return '1.1.0'
   }
 
   getAuthor () {
@@ -33,7 +33,7 @@ module.exports = class NitroAdblock {
   }
 
   isAd (channel) {
-    return (channel.innerText === 'Nitro' && channel.href === 'https://discord.com/store')
+    return (channel.href === 'https://discord.com/store')
   }
 
   removeAds () {
