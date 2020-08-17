@@ -9,3 +9,7 @@ You have 10 different plugins, each of them adding their own button to the contr
 
 ![Screenshot for CrowdedControlPanel](/CrowdedControlPanel/CrowdedControlPanel_01.png?raw=true "Screenshot for CrowdedControlPanel")
 
+## SurpressDOMToolsWarning
+Surpress the common warning "These custom functions on HTMLElement will be removed." from being printed to the console logs.
+
+![Screenshot of warning for SurpressDOMToolsWarning](/SurpressDOMToolsWarning/warning.png?raw=true "Screenshot for SurpressDOMToolsWarning")
