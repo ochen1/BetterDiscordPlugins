@@ -18,7 +18,7 @@ module.exports = class UseCustomEmoji {
     }
 
     getDescription() {
-        return "A plugin to attach emojis as images and make them appear as if they were real emoji by resizing them to the same size as emoji appear prior to sending.";
+        return "Enables all the emojis, allowing you to link emojis that you don't have access to. This plugin resizes the emoji before sending, so the attached image preview is the same size as the emoji.";
     }
 
     getVersion() {
