@@ -1,6 +1,6 @@
 /**
  * @name UseCustomEmoji
- * @version 1.1.0
+ * @version 1.1.1
  * @description Enables all the emojis, allowing you to link emojis that you don't have access to.
  * ★ This plugin resizes the emoji before sending, so the attached image preview is the same size as the emoji.
  *
